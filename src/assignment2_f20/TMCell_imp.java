@@ -7,7 +7,10 @@ public class TMCell_imp implements TMCell {
   public TMCell RC;
 
   TMCell_imp(String k, Value v) { key=k;  val=v; LC=RC=null; }
-
+  
+  
+  
+  //public void setCell (TMCell n) { this = n;}
   @Override
   public void setKey(String newKey) { key = newKey; } 
   @Override
@@ -24,4 +27,5 @@ public class TMCell_imp implements TMCell {
   public void setRight(TMCell newRight) { RC = newRight; }
   @Override
   public TMCell getRight() {  return RC; }
+  
 }

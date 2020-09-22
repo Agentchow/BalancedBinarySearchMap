@@ -21,4 +21,6 @@ public class Value_imp implements Value {
   public void setAge (int n) { this.age = n; }
   @Override
   public int getAge() { return age; }
+  
+  public String toString() { return ("Da String... idNum: " + idNum + "|score: " + score + "|age: " + age);}
 } 
